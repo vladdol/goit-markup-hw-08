@@ -1,0 +1,31 @@
+.header {
+  border: 1px solid #ececec;
+}
+
+.header__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title_color);
+}
+
+.button-burger {
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent_color);
+  }
+  
+  @media screen and (min-width: 768px) {
+    display: none;
+    
+  }
+}

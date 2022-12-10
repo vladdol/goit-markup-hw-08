@@ -1,0 +1,24 @@
+@import "./utils/variables";
+@import "./utils/placeholders";
+@import "./utils/hidden-title";
+@import "./base/container";
+@import "./base/base";
+@import "./components/header/header";
+@import "./components/menu-container";
+
+@import "./components/logo";
+@import "./components/header/nav-list";
+@import "./components/header/contact-header";
+
+@import "./components/hero";
+@import "./components/button";
+@import "./components/features";
+@import "./components/works";
+@import "./components/our-team/our-team";
+@import "./components/our-team/our-team-icons";
+@import "./components/customers";
+@import "./components/footer";
+@import "./components/portfolio/portfolio-filter";
+@import "./components/portfolio/portfolio-cards";
+@import "./components/modal/modal";
+@import "./components/modal/madal-checkbox";

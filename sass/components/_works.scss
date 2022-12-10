@@ -1,0 +1,41 @@
+.works {
+  padding-bottom: 94px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.works__list {
+  display: flex;
+  justify-content: center;
+}
+
+.works__items {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.works__image {
+  display: block;
+}
+
+.works__description {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  @extend %flex-standart;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--general_bg);
+  background-color: rgba(47, 48, 58, 0.8);
+}
