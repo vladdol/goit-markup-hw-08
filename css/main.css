@@ -861,7 +861,7 @@
 @media screen and (min-width: 1200px) {
   .footer__cont-two {
     display: inline-block;
-    margin-left: 93px;
+    margin-left: auto;
   }
 }
 
