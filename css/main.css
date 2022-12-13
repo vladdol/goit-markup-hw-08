@@ -971,6 +971,7 @@
 }
 
 .filter__button {
+  color: #212121;
   margin-right: 8px;
   margin-bottom: 15px;
   background-color: #f5f4fa;
@@ -1143,11 +1144,14 @@
   top: 8px;
   background-color: #fff;
   cursor: pointer;
-  border-color: transparent;
+  outline: transparent;
+}
+
+.close_modal__svg {
   fill: #212121;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__button-close:hover, .modal__button-close:focus {
+.modal__button-close:hover .close_modal__svg, .modal__button-close:focus .close_modal__svg {
   fill: var(--accent_color);
 }
 
