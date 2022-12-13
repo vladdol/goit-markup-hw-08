@@ -5,7 +5,7 @@
   margin-right: auto;
 
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
@@ -24,5 +24,9 @@
   &:hover,
   &:focus {
     background-color: #188ce8;
+  }
+
+  @media screen and (min-width: 217px) {
+    font-size: 16px;
   }
 }
