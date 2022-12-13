@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1600px) {
     padding-top: 94px;
     padding-bottom: 94px;
   }
@@ -15,25 +15,19 @@
     gap: 30px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1600px) {
     justify-content: center;
   }
 }
 
 .features__item {
-  margin-left: auto;
-  margin-right: auto;
-  
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 30px) / 2);
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1600px) {
     flex-basis: calc((100% - 120px) / 4);
     max-width: 270px;
   }
-}
-
-.features__item:last-child {
 }
 
 .features__container {

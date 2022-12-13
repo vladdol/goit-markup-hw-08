@@ -143,36 +143,86 @@
           <h2 class="sections-title works__title">Чим ми займаємося</h2>
           <ul class="list works__list">
             <li class="works__items">
-              <img
-                srcset="images/works/1img.jpg 370w, images/works/1imgx2.jpg 740w, images/works/1imgx3.jpg 1110w"
-                sizes="(min-width: 1200px) 370px, 100vw"
-                src="images/works/1img.jpg"
-                width="370"
-                alt="клава"
-                class="works__image"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/works/works-1600-01@1x.webp 1x,
+                    ./images/works/works-1600-01@2x.webp 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/works/works-1600-01@1x.jpg 1x,
+                    ./images/works/works-1600-01@2x.jpg 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/jpeg"
+                />
+                <img
+                  src="./images/works/works-1600-01@1x.jpg"
+                  width="370"
+                  alt="клава"
+                  class="works__image"
+                />
+              </picture>
               <p class="paragraf works__description">Десктопні додатки</p>
             </li>
+
             <li class="works__items">
-              <img
-                srcset="images/works/2img.jpg 370w, images/works/2imgx2.jpg 740w, images/works/2imgx3.jpg 1110w"
-                sizes="(min-width: 1200px) 370px, 100vw"
-                src="images/works/2img.jpg"
-                width="370"
-                alt="ноут"
-                class="works__image"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/works/works-1600-02@1x.webp 1x,
+                    ./images/works/works-1600-02@2x.webp 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/works/works-1600-02@1x.jpg 1x,
+                    ./images/works/works-1600-02@2x.jpg 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <img
+                  src="./images/works/works-1600-02@1x.jpg"
+                  width="370"
+                  alt="ноут"
+                  class="works__image"
+                />
+              </picture>
               <p class="paragraf works__description">Мобільні додатки</p>
             </li>
+
             <li class="works__items">
-              <img
-                srcset="images/works/3img.jpg 370w, images/works/3imgx2.jpg 740w, images/works/3imgx3.jpg 1110w"
-                sizes="(min-width: 1200px370pxpx, 100vw"
-                src="images/works/3img.jpg"
-                width="370"
-                alt="палiтра"
-                class="works__image"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/works/works-1600-03@1x.webp 1x,
+                    ./images/works/works-1600-03@2x.webp 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/works/works-1600-03@1x.jpg 1x,
+                    ./images/works/works-1600-03@2x.jpg 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <img
+                  src="./images/works/works-1600-03@1x.jpg"
+                  width="370"
+                  alt="палiтра"
+                  class="works__image>"
+                />
+              </picture>
               <p class="paragraf works__description">Дизайнерські рішення</p>
             </li>
           </ul>
@@ -185,11 +235,64 @@
           <h2 class="sections-title team__title">Наша команда</h2>
           <ul class="list team__list">
             <li class="team__item">
-              <img class="team__img" src="./images/4.jpg" alt="Ігор Дем'яненко" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/our-team/our-team-1600-01@1x.webp 1x,
+                    ./images/our-team/our-team-1600-01@2x.webp 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-1600-01@1x.jpg 1x,
+                    ./images/our-team/our-team-1600-01@2x.jpg 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-768-01@1x.webp 1x,
+                    ./images/our-team/our-team-768-01@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-768-01@1x.jpg 1x,
+                    ./images/our-team/our-team-768-01@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-480-01@1x.webp 1x,
+                    ./images/our-team/our-team-480-01@2x.webp 2x
+                  "
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-480-01@1x.jpg 1x,
+                    ./images/our-team/our-team-480-01@2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <img
+                  src="./images/our-team/our-team-480-01@1x.jpg"
+                  alt="Ігор Дем'яненко"
+                  class="team__img"
+                />
+              </picture>
               <div class="team__container">
                 <h3 class="container__title team__name">Ігор Дем'яненко</h3>
                 <p class="paragraf team__description" lang="en">Product Designer</p>
-
                 <ul class="list social-ico">
                   <li class="social-ico__item">
                     <a class="link social-ico__link" href="">
@@ -224,11 +327,64 @@
             </li>
 
             <li class="team__item">
-              <img class="team__img" src="./images/5.jpg" alt="Ольга Рєпіна" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/our-team/our-team-1600-02@1x.webp 1x,
+                    ./images/our-team/our-team-1600-02@2x.webp 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-1600-02@1x.jpg 1x,
+                    ./images/our-team/our-team-1600-02@2x.jpg 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-768-02@1x.webp 1x,
+                    ./images/our-team/our-team-768-02@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-768-02@1x.jpg 1x,
+                    ./images/our-team/our-team-768-02@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-480-02@1x.webp 1x,
+                    ./images/our-team/our-team-480-02@2x.webp 2x
+                  "
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-480-02@1x.jpg 1x,
+                    ./images/our-team/our-team-480-02@2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <img
+                  src="./images/our-team/our-team-480-02@1x.jpg"
+                  alt="Ольга Рєпіна"
+                  class="team__img"
+                />
+              </picture>
               <div class="team__container">
                 <h3 class="container__title team__name">Ольга Рєпіна</h3>
                 <p class="paragraf team__description" lang="en">FrontendDeveloper</p>
-
                 <ul class="list social-ico">
                   <li class="social-ico__item">
                     <a class="link social-ico__link" href="">
@@ -263,11 +419,64 @@
             </li>
 
             <li class="team__item">
-              <img class="team__img" src="./images/6.jpg" alt="Микола Тарасов" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/our-team/our-team-1600-03@1x.webp 1x,
+                    ./images/our-team/our-team-1600-03@2x.webp 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-1600-03@1x.jpg 1x,
+                    ./images/our-team/our-team-1600-03@2x.jpg 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-768-03@1x.webp 1x,
+                    ./images/our-team/our-team-768-03@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-768-03@1x.jpg 1x,
+                    ./images/our-team/our-team-768-03@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-480-03@1x.webp 1x,
+                    ./images/our-team/our-team-480-03@2x.webp 2x
+                  "
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-480-03@1x.jpg 1x,
+                    ./images/our-team/our-team-480-03@2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <img
+                  src="./images/our-team/our-team-480-03@1x.jpg"
+                  alt="Микола Тарасов"
+                  class="team__img"
+                />
+              </picture>
               <div class="team__container">
                 <h3 class="container__title team__name">Микола Тарасов</h3>
                 <p class="paragraf team__description" lang="en">Marketing</p>
-
                 <ul class="list social-ico">
                   <li class="social-ico__item">
                     <a class="link social-ico__link" href="">
@@ -302,11 +511,64 @@
             </li>
 
             <li class="team__item">
-              <img class="team__img" src="./images/7.jpg" alt="Михайло Єрмаков" />
+              <picture>
+                <source
+                  srcset="
+                    ./images/our-team/our-team-1600-04@1x.webp 1x,
+                    ./images/our-team/our-team-1600-04@2x.webp 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-1600-04@1x.jpg 1x,
+                    ./images/our-team/our-team-1600-04@2x.jpg 2x
+                  "
+                  media="(min-width: 1600px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-768-04@1x.webp 1x,
+                    ./images/our-team/our-team-768-04@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-768-04@1x.jpg 1x,
+                    ./images/our-team/our-team-768-04@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-480-04@1x.webp 1x,
+                    ./images/our-team/our-team-480-04@2x.webp 2x
+                  "
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/our-team/our-team-480-04@1x.jpg 1x,
+                    ./images/our-team/our-team-480-04@2x.jpg 2x
+                  "
+                  media="(min-width: 480px)"
+                  type="image/webp"
+                />
+                <img
+                  src="./images/our-team/our-team-480-04@1x.jpg"
+                  alt="Михайло Єрмаков"
+                  class="team__img"
+                />
+              </picture>
               <div class="team__container">
                 <h3 class="container__title team__name">Михайло Єрмаков</h3>
                 <p class="paragraf team__description" lang="en">UI Designer</p>
-
                 <ul class="list social-ico">
                   <li class="social-ico__item">
                     <a class="link social-ico__link" href="">
