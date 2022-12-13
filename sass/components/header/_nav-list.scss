@@ -39,14 +39,14 @@
   transform-origin: left;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+  &:hover::before,
+  &:focus::before {
+    transform: scaleX(1);
+  }
+
   @media screen and (min-width: 1200px) {
     bottom: -2px;
   }
-}
-
-.nav__link:hover::before,
-.nav__link:focus::before {
-  transform: scaleX(1);
 }
 
 .nav__active {
